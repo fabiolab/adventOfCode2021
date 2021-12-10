@@ -16,3 +16,7 @@ if __name__ == "__main__":
     # Star 2
     # A bit long but works ...
     print(min([sum([sum_integer(abs(pos - i)) for pos in DATA]) for i in range(min(DATA), max(DATA)) for pos in DATA]))
+    #
+    # for i in range(min(DATA), max(DATA)):
+    #     moves = [sum_integer(abs(pos - i)) for pos in DATA]
+    #     print(i, sum(moves))
